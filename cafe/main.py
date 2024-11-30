@@ -46,4 +46,13 @@ def place_order(order: Order):
     orders.append(order)
     return {"message": f"order placed successfully! Total: ${total_price}"}
 
-@add
+@add.post("/reviews")
+def add_reveiw(review: Review):
+    if not any(item.id == review.item_id for item in menu):
+        raise HTTPException(status_code=404, detail="Menu item not found.")
+    reviwes.append(review)
+    return {"massage":"Review added successfully!"}
+
+@app.get("/reviews", response_model=List[Review])
+def get_reviews():
+    return reviwes
