@@ -136,9 +136,13 @@ Response:
 
 #Resources
 Here are some helpful resources to learn more about FastAPI:  
+
 Official Documentation (https://fastapi.tiangolo.com/)
+
 Uvicorn Documentation (https://www.uvicorn.org/)
+
 How to Use FastAPI (https://youtu.be/SORiTsvnU28?si=CeduJuFkJ5R-UuWs)
+
 FastAPI playlist (https://www.youtube.com/watch?v=nCrX79LqDT8&list=PLqAmigZvYxIL9dnYeZEhMoHcoP4zop8-p)
 
 ---
