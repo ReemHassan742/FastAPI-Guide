@@ -149,5 +149,5 @@ FastAPI playlist (https://www.youtube.com/watch?v=nCrX79LqDT8&list=PLqAmigZvYxIL
 
 #Medium Article
 The full explanation of this project and its implementation can be found on my Medium blog:  
-[FastAPI Guide: Building a Cafe Management API] (link )  
+[FastAPI Guide: Building a Cafe Management API] (link (https://medium.com/@reemhassan742r/fastapi-guide-building-a-cafe-management-api-from-scratch-34cde7445f37))  
 
