@@ -4,7 +4,6 @@ from typing import List
 from database import menu, orders, reviews
 from models import MenuItem, Order, Review
 
-
 app = FastAPI(
     docs_url="/docs", 
     redoc_url="/redoc", 
